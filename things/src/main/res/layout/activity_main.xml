@@ -50,7 +50,7 @@
             android:layout_below="@id/wifi_status"
             android:layout_toLeftOf="@id/imageWifiState"
             android:text="" />
-        <ImageButton
+        <ImageView
             android:id="@+id/imageWifiState"
             android:layout_width="50dp"
             android:layout_height="50dp"

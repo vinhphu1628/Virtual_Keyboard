@@ -16,6 +16,7 @@ import android.view.inputmethod.BaseInputConnection;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageButton;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 import java.text.SimpleDateFormat;
@@ -24,7 +25,7 @@ import java.util.Date;
 public class MainActivity extends Activity implements View.OnClickListener{
 
     private ImageButton back;
-    private ImageButton imageWifiState;
+    private ImageView imageWifiState;
 
     private TextView time, date, wifi_status, ip_address;
     private Handler mTime = new Handler();
